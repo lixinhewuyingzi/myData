@@ -1,3 +1,5 @@
+                                                                   项目中的疑难杂症记录
+
 1 CentOS 7 开放端口命令
     查看已经开放的端口： firewall-cmd --list-ports
     开启端口：firewall-cmd --zone=public --add-port=80/tcp --permanent
