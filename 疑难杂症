@@ -1,0 +1,15 @@
+1 CentOS 7 开放端口命令
+    查看已经开放的端口： firewall-cmd --list-ports
+    开启端口：firewall-cmd --zone=public --add-port=80/tcp --permanent
+    关闭端口：firewall-cmd --zone=public --remove-port=80/tcp --permanent
+    重启防火墙：firewall-cmd --reload
+    查看默认防火墙状态（关闭后显示notrunning，开启后显示running）：firewall-cmd --state
+    关闭防火墙
+    1 ) 永久性生效，重启后不会复原
+    开启： systemctl enable firewalld
+    关闭： systemctl disable firewalld
+    2 ) 即时生效，重启后复原
+    开启： systemctl start firewalld
+    关闭： systemctl stop firewalld
+    ————————————————
+    原文链接：https://blog.csdn.net/weixin_44570041/article/details/121042468
