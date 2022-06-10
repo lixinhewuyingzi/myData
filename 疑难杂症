@@ -15,3 +15,6 @@
     关闭： systemctl stop firewalld
     ————————————————
     原文链接：https://blog.csdn.net/weixin_44570041/article/details/121042468
+    
+  2 Linux添加脚本(.sh)后要设置权限为777才能使用
+    命令: chmod 777 start.sh    chmod 777 stop.sh
