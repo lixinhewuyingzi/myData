@@ -18,3 +18,4 @@
     
   2 Linux添加脚本(.sh)后要设置权限为777才能使用
     命令: chmod 777 start.sh    chmod 777 stop.sh
+    注: chmod -R 777 xxx  意为文件夹下所有文件都赋予777权限
