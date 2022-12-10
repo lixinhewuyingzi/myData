@@ -29,3 +29,7 @@ https://github.com/jgraph/drawio-desktop/releases/tag/v20.2.3
 文章链接: https://blog.csdn.net/qq_32048567/article/details/126351094
 
 --springcloud加载配置文件: 在和jar包同目录下新建config文件夹, 文件夹中创建application.yml配置文件, 则会优先读取config文件夹中的外部配置文件, 读不到才去读项目中的配置文件
+
+---nginx返回200状态码但是数据为空白
+新增一行:proxy_http_version 1.1;
+文章链接:https://www.cnblogs.com/Qooo/p/13853465.html
