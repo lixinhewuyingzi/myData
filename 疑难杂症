@@ -33,3 +33,10 @@ https://github.com/jgraph/drawio-desktop/releases/tag/v20.2.3
 ---nginx返回200状态码但是数据为空白
 新增一行:proxy_http_version 1.1;
 文章链接:https://www.cnblogs.com/Qooo/p/13853465.html
+
+---less查询和搜索日志
+less 日志文件.log
+shift+G 跳转到文件底部
+?关键字  问号+关键字开启搜索
+n 往上进行搜索
+shift+n 往下进行搜索
